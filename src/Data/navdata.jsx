@@ -18,27 +18,27 @@ const navdata = [
                     {
                         id: 1,
                         title: 'Website design',
-                        url: '/website-1',
+                        url: '/wdesign',
                     },
                     {
                         id: 2,
                         title: 'Website development',
-                        url: '/website-2',
+                        url: '/wdevelop',
                     },
                     {
                         id: 3,
                         title: 'E-commerce development',
-                        url: '/website-3',
+                        url: '/Edevelop',
                     },
                     {
                         id: 4,
                         title: 'Website Mentainance',
-                        url: '/website-4',
+                        url: '/wmentain',
                     },
                     {
                         id: 5,
                         title: 'Website Hosting',
-                        url: '/website-5',
+                        url: '/whosting',
                     },
                 ]
             },
@@ -50,22 +50,22 @@ const navdata = [
                     {
                         id: 1,
                         title: 'Organic SEO',
-                        url: '/organic',
+                        url: '/sorganic',
                     },
                     {
                         id: 2,
                         title: 'eCommarce SEO',
-                        url: '/ecom',
+                        url: '/secom',
                     },
                     {
                         id: 3,
                         title: 'Local SEO',
-                        url: '/local',
+                        url: '/slocal',
                     },
                     {
                         id: 4,
                         title: 'Healthcare SEO Services',
-                        url: '/health',
+                        url: '/shealth',
                     },
                 ]
             },
@@ -77,17 +77,17 @@ const navdata = [
                     {
                         id: 1,
                         title: 'PPC Marketing',
-                        url: '/ppc',
+                        url: '/dppc',
                     },
                     {
                         id: 2,
                         title: 'eCommarce Ads',
-                        url: '/ecomad',
+                        url: '/decom',
                     },
                     {
                         id: 3,
                         title: 'Facebook Ads',
-                        url: '/fbads',
+                        url: '/dfacebook',
                     }
                 ]
             },
@@ -101,7 +101,7 @@ const navdata = [
     {
         id: 0.4,
         title: 'About',
-        url: '/',
+        url: '/about',
         subMenu: [
             {
                 id: 1,
@@ -111,7 +111,7 @@ const navdata = [
             {
                 id: 2,
                 title: 'Our Team',
-                url: '/team',
+                url: '/ourteam',
             }
         ]
     },

@@ -10,13 +10,15 @@ const Navber = () => {
   const [isOpen1, setIsOpen1] = useState(0)
 
   return (
-    <div className='flex justify-between items-center py-3'>
+    <div className='flex justify-between items-center py-3 relative z-50 bg-white shadow-lg'>
       {/* logo section  */}
         <div className='text-2xl font-bold text-yellow-800'>
-            <img src="https://xceedbd.com/wp-content/uploads/2023/06/xceed-bangladesh-logo.png" alt="" />
+            <a href="/">
+              <img src="https://xceedbd.com/wp-content/uploads/2023/06/xceed-bangladesh-logo.png" alt="" />
+            </a>
         </div>
         {/* nav section  */}
-        <div className=' group flex space-x-4 text-[#4B4646]'>
+        <div className=' group flex space-x-4 text-[#4B4646] relative z-100'>
             {navdata.map((item, index)=>(
               <div key={index} className='flex items-center justify-center gap-1'>
                 <div onMouseEnter={()=>setIsOpen(index)} onMouseLeave={()=>setIsOpen(4000)} className={`flex items-center gap-1 relative `}>
