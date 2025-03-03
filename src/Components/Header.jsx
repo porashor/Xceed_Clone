@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Header = ({children}) => {
+const Header = ({children, stylex}) => {
   return (
-    <div className='text-7xl font-bold text-[#060606] text-center '>
+    <div className={`text-7xl font-bold  ${stylex} text-center `}>
       {children}
     </div>
   )
