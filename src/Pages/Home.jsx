@@ -3,6 +3,7 @@ import Banner from '../Components/Banner'
 import DegitalMarketing from '../Components/DegitalMarketing'
 import { Helmet } from 'react-helmet-async';
 import StoryTell from '../Components/StoryTell';
+import ImageGallary from '../Components/ImageGallary';
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Banner/>
       <DegitalMarketing/>
       <StoryTell/>
+      <ImageGallary/>
     </div>
   )
 }
