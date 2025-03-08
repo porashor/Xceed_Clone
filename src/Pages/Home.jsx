@@ -4,6 +4,9 @@ import DegitalMarketing from '../Components/DegitalMarketing'
 import { Helmet } from 'react-helmet-async';
 import StoryTell from '../Components/StoryTell';
 import ImageGallary from '../Components/ImageGallary';
+import SuccessTeam from '../Components/SuccessTeam';
+import MobileContact from '../Components/MobileContact';
+import ShareLoc from '../Components/ShareLoc';
 
 
 
@@ -18,6 +21,9 @@ const Home = () => {
       <DegitalMarketing/>
       <StoryTell/>
       <ImageGallary/>
+      <SuccessTeam/>
+      <MobileContact/>
+      <ShareLoc/>
     </div>
   )
 }
