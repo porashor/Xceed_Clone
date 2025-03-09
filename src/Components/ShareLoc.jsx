@@ -1,24 +1,37 @@
 import React from 'react'
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
+var loc;
+var loc1;
+
+navigator.geolocation.getCurrentPosition(
+    (position) => {
+        loc =  position.coords.longitude;
+        loc1 = position.coords.latitude;
+    },
+    (error) => console.error("Error fetching location:", error)
+  );
+
+
+
+
 const ShareLoc = () => {
     const mapContainerStyle = {
         width: "100%",
-        height: "400px",
+        height: "100vh",
       };
     const center = {
-        lat: 23.8103, // Example: Latitude for Dhaka
-        lng: 90.4125, // Example: Longitude for Dhaka
+        lat: 22.33311, 
+        lng: 91.81634, 
       };
   return (
     <div>
-      this is shareloc
       <div>
-      <LoadScript googleMapsApiKey="YOUR_API_KEY">
+      <LoadScript loadingElement={<div>Loading...</div>} >
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={center}
-        zoom={10}
+        zoom={15}
       />
     </LoadScript>
       </div>

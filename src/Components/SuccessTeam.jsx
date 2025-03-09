@@ -5,13 +5,7 @@ import { BsStarFill } from 'react-icons/bs'
 import cer1 from "../assets/certificate/c1.jpg"
 import cer2 from "../assets/certificate/c2.jpg"
 
-navigator.geolocation.getCurrentPosition(
-    (position) => {
-      console.log("Latitude:", position.coords.latitude);
-      console.log("Longitude:", position.coords.longitude);
-    },
-    (error) => console.error("Error fetching location:", error)
-  );
+
 
 
 const SuccessTeam = () => {

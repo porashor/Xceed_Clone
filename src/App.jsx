@@ -24,6 +24,7 @@ import Dfacebook from "./Pages/Dfacebook";
 import Decom from './Pages/Decom';
 import OurTeam from './Pages/OurTeam';
 import { HelmetProvider } from 'react-helmet-async';
+import Foother from './Components/Foother';
 
 const App = () => {
   const helmetContext = {};
@@ -56,6 +57,7 @@ const App = () => {
           <Route path='ourteam' element={<OurTeam />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
+        <Foother/>
       </Router>
       </HelmetProvider>
     </div>

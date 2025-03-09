@@ -128,3 +128,29 @@ const navdata = [
 ]
 
 export default navdata
+
+
+
+export const foothernav = [{
+    name: "Home",
+    links: "/",
+},
+{
+    name: "Career",
+    links: "/career",
+},
+{
+    name: "Contact Us",
+    links: "/contact",
+},
+{
+    name: "Sitemap",
+    links: "/sitemap",
+},
+{
+    name: "Privacy Policy",
+    links: "/policy",
+},
+]
+
+
