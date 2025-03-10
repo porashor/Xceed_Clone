@@ -17,7 +17,6 @@ const Home = () => {
       {/* page title section  */}
       <Helmet>
         <title>Digital Marketing Agency, Web Design & SEO | Xceedbd</title>
-        <meta name="description" content="This is the home page" />
       </Helmet>
       {/* main page section  */}
       <Banner/>
