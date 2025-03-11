@@ -8,12 +8,12 @@ const navdata = [
     {
         id: 0.2,
         title: 'Services',
-        url: '/services',
+        url: '/service',
         subMenu: [
             {
                 id: 1,
                 title: 'Website',
-                url: '/website',
+                url: '/service',
                 subMenu: [
                     {
                         id: 1,
@@ -45,7 +45,7 @@ const navdata = [
             {
                 id: 2,
                 title: 'SEO',
-                url: '/seo',
+                url: '/service',
                 subMenu: [
                     {
                         id: 1,
@@ -72,7 +72,7 @@ const navdata = [
             {
                 id: 3,
                 title: 'Degital Marketing',
-                url: '/digital',
+                url: '/service',
                 subMenu: [
                     {
                         id: 1,
