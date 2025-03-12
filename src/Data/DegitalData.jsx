@@ -52,6 +52,27 @@ export const DegitalData = [
     },
 ]
 
+import team1 from "../assets/Trust/team1.jpg"
+import team2 from "../assets/Trust/team2.jpg"
+import team3 from "../assets/Trust/team3.jpg"
+
+export const trustDegitalData = [
+    {
+        title: "Passion",
+        details: "We Have Over 300 Team Members Dedicated To The Disciplines Of Digital Marketing.",
+        Image: team1
+    },
+    {
+        title: "Experience",
+        details: "We deliver proven strategies & reliable execution to businesses of All Sizes.",
+        Image: team2
+    },
+    {
+        title: "Leadership",
+        details: "We bring digital marketing trends to the forefront in keynotes across the Globe.",
+        Image: team3
+    },
+]
 
 
 
