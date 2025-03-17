@@ -1,9 +1,15 @@
 import React from 'react'
+import ContactUs from '../Components/ContactUs'
+import Touch from '../Components/Touch'
+
+
+
 
 const Contact = () => {
   return (
     <div>
-      this is the contact page
+      <ContactUs/>
+      <Touch/>
     </div>
   )
 }

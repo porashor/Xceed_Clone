@@ -25,6 +25,7 @@ import Decom from './Pages/Decom';
 import OurTeam from './Pages/OurTeam';
 import { HelmetProvider } from 'react-helmet-async';
 import Foother from './Components/Foother';
+import Blog from './Pages/Blog';
 
 const App = () => {
   const helmetContext = {};
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/' element={<Home/>} />
           <Route path='about' element={<About/>} />
           <Route path='contact' element={<Contact/>} />
+          <Route path='blog' element={<Blog/>} />
           <Route path='service' element={<Service/>} />
           <Route path='seo' element={<SEO />} />
           <Route path='wdesign' element={<Wdesign />} />
