@@ -1,7 +1,6 @@
 import React from 'react'
 import Banner from '../Components/Banner'
 import DegitalMarketing from '../Components/DegitalMarketing'
-import { Helmet } from 'react-helmet-async';
 import StoryTell from '../Components/StoryTell';
 import ImageGallary from '../Components/ImageGallary';
 import SuccessTeam from '../Components/SuccessTeam';
@@ -15,9 +14,7 @@ const Home = () => {
   return (
     <div>
       {/* page title section  */}
-      <Helmet>
-        <title>Digital Marketing Agency, Web Design & SEO | Xceedbd</title>
-      </Helmet>
+      
       {/* main page section  */}
       <Banner/>
       <DegitalMarketing/>

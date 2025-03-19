@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet-async'
 import { portfoliodata } from '../Data/PortfolioData'
 import Getstart from '../Components/Getstart'
 
@@ -8,9 +7,6 @@ import Getstart from '../Components/Getstart'
 const Portfolio = () => {
   return (
     <div className=''>
-      <Helmet>
-        <title>Work - Website Design and Software Development Company</title>
-      </Helmet>
       {/* header section  */}
       <div className='flex w-[80%] mx-auto flex-col items-center justify-center gap-5 py-10'>
         <h1 className='text-3xl lg:text-4xl font-bold text-yellow-600'>Our Portfolio</h1>

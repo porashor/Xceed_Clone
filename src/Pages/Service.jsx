@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet-async';
 import SrBanner from '../Components/SrBanner';
 import Rward from '../Components/Rward';
 import DMS from '../Components/DMS';
@@ -23,9 +22,6 @@ const Service = () => {
   }
   return (
     <div>
-      <Helmet>
-        <title>Digital Marketing Services - Website Design and Software Development Company</title>
-      </Helmet>
       <SrBanner/>
       <Rward overview={""} css={cssR} Image={reImage} name1={"Bangladesh's #1 Rated Digital Marketing Agency"} name2={"With XCEEDBD, you get the best services, processes, and people to grow your business."}/>
       <DMS/>

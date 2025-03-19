@@ -23,15 +23,12 @@ import Dppc from "./Pages/Dppc";
 import Dfacebook from "./Pages/Dfacebook";
 import Decom from './Pages/Decom';
 import OurTeam from './Pages/OurTeam';
-import { HelmetProvider } from 'react-helmet-async';
 import Foother from './Components/Foother';
 import Blog from './Pages/Blog';
 
 const App = () => {
-  const helmetContext = {};
   return (
     <div className='relative'>
-      <HelmetProvider context={helmetContext}>
       <Router>
         <Navbar />
         <Routes>
@@ -61,7 +58,6 @@ const App = () => {
         </Routes>
         <Foother/>
       </Router>
-      </HelmetProvider>
     </div>
   )
 }
